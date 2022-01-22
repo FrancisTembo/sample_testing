@@ -21,3 +21,7 @@ def test_divide(a, b, c):
 @pytest.mark.parametrize("a, b, c", [(1, 1, 0), (10, 5, 5), (40, 5, 35)])
 def test_subtract(a, b, c):
     assert subtract(a, b) == c
+
+def test_divide_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        divide(10, 0)

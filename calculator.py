@@ -18,7 +18,8 @@ def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     """
     return a + b
 
-def multiply(a: Union[float, int], b: Union[float, int])-> Union[float, int]:
+
+def multiply(a: Union[float, int], b: Union[float, int]) -> Union[float, int]:
     """Returns the product of two numbers.
 
     Parameters
@@ -26,11 +27,29 @@ def multiply(a: Union[float, int], b: Union[float, int])-> Union[float, int]:
     a : Union[float, int]
         First number.
     b : Union[float, int]
-        Second number. 
+        Second number.
 
     Returns
     -------
     Union[float, int]
         Product of a and b.
-    """    
-    return a*b
+    """
+    return a * b
+
+
+def divide(a: Union[float, int], b: Union[float, int]) -> Union[float, int]:
+    """Divides a by b.
+
+    Parameters
+    ----------
+    a : Union[float, int]
+        First number.
+    b : Union[float, int]
+        Second number.
+
+    Returns
+    -------
+    Union[float, int]
+        Product of a and b.
+    """
+    return a / b

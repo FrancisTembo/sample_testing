@@ -7,6 +7,6 @@ from calculator import add, multiply
 def test_add(a, b, c):
     assert add(a, b) == c
 
-@pytest.mark.parametrize("a, b, c", [(1, 1, 1), (10, 5, 150), (4, 5, 20)])
+@pytest.mark.parametrize("a, b, c", [(1, 1, 1), (10, 5, 50), (4, 5, 20)])
 def test_multiply(a, b, c):
     assert multiply(a, b) == c

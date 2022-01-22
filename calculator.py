@@ -70,4 +70,4 @@ def subtract(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     Union[int, float]
         Difference of a and b.
     """
-    return a + b
+    return a - b

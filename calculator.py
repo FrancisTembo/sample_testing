@@ -50,6 +50,24 @@ def divide(a: Union[float, int], b: Union[float, int]) -> Union[float, int]:
     Returns
     -------
     Union[float, int]
-        Product of a and b.
+        Result of dividing a by b.
     """
     return a / b
+
+
+def subtract(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+    """Subtract b from a.
+
+    Parameters
+    ----------
+    a : Union[int, float]
+        First number.
+    b : Union[int, float]
+        Second number.
+
+    Returns
+    -------
+    Union[int, float]
+        Difference of a and b.
+    """
+    return a + b
